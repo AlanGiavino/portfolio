@@ -1,0 +1,35 @@
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: black;
+  z-index: 10000;
+  transition: all 0.35s ease;
+}
+
+.header.noBg {
+  background: none;
+}
+
+.content {
+  padding: 15px 30px;
+  margin: 0 auto;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.content a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 550px) {
+  .header div a {
+    font-size: 2.4rem;
+  }
+}
