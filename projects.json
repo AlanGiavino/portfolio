@@ -1,0 +1,139 @@
+[
+  {
+    "id": 1,
+    "name": "Henropoly",
+    "shortDescription": "Final project of SoyHenry's full stack development bootcamp. Henropoly is an online replica of the famous board game Monopoly created by Henry students designed for Henry's community.",
+    "description": "Henropoly is an online replica of the famous board game Monopoly created by Henry students designed for Henry's community. It can be enjoyed by 2 to 4 players through a multiplayer system where each one competes to avoid bankruptcy and to reach the end of the game.",
+    "pictures": [
+
+      "/henropoly/henropoly-1.JPG",
+      "/henropoly/henropoly-3.JPG",
+      "/henropoly/henropoly-4.JPG",
+      "/henropoly/henropoly-2.JPG"
+    ],
+    "placeholder": "/placeholder-1.png",
+    "liveViewLink": "henropoly.vercel.app",
+    "githubLink": "https://github.com/matiasgarrid0/Henropoly",
+    "techStack": [
+      "React",
+      "Redux",
+      "HTML",
+      "CSS",
+      "Redis",
+      "PostgreSQL",
+      "Sequelize",
+      "Express",
+      "NodeJS",
+      "Socket.io"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Dogs App",
+    "shortDescription": "App for searching, creating and filtering dog breeds using an API.",
+    "description": "App for searching, creating and filtering dog breeds using an API using Node.js, React, Redux, Express, Sequelize, Postgres and Style Components.",
+    "pictures": [
+      "/dogs-app/dog-1.JPG",
+      "/dogs-app/dog-2.JPG",
+      "/dogs-app/dog-3.JPG",
+      "/dogs-app/dog-4.JPG"
+    ],
+    "placeholder": "/placeholder-2.png",
+    "liveViewLink": "https://pasteleria-ecommerce-nextjs-lamaolo.vercel.app/",
+    "githubLink": "https://github.com/AlanGiavino/PI-Dogs-FT14a",
+    "techStack": ["React","Redux","HTML","Express","PostgreSQL","Sequelize",  "Styled components"]
+  },
+  {
+    "id": 4,
+    "name": "Food App",
+    "shortDescription": "App for searching, creating and filtering recipes using an API.",
+    "description": "App for searching, creating and filtering recipes using an API using Node.js, React, Redux, Express, Sequelize, Postgres and Css.",
+    "pictures": [
+      "/food-app/food-1.JPG", 
+      "/food-app/food-2.JPG",
+      "/food-app/food-3.JPG"
+    ],
+    "placeholder": "/placeholder-1.png",
+    "liveViewLink": "https://bookmark-landingpage-lamaolo.vercel.app/",
+    "githubLink": "https://github.com/AlanGiavino/PI-Food-FT15a",
+    "techStack":  ["React","Redux","HTML","Express","PostgreSQL","Sequelize", "CSS"]
+  },
+  {
+    "id": 3,
+    "name": "Personal portfolio",
+    "shortDescription": "My personal portfolio! The page I made to introduce myself and show the projects I've worked on. This page is intended to be easy-to-understand, fast, functional and practical.",
+    "description": "My personal portfolio! The page I made to introduce myself and show the projects I've worked on.\nI designed this page to be extremly performant, fast and accessible so that people can easily see my work and contact me.\nI chose NextJS as the framework to build this website in order to make it as fast and efficient as possible using all the features it includes such as SSG, optimized images, SSR optimizations, etc.",
+    "pictures": [
+      "/portfolio/portfolio-1.JPG",
+      "/portfolio/portfolio-2.JPG",
+      "/portfolio/portfolio-3.JPG"
+    ],
+    "placeholder": "/placeholder-2.png",
+    "liveViewLink": "https://portfolio-alangiavino.vercel.app/",
+    "githubLink": "https://github.com/AlanGiavino/portfolio",
+    "techStack": ["React", "NextJS", "CSS"]
+  },
+
+  {
+    "id": 6,
+    "name": "Manage landing page",
+    "shortDescription": "Landing page of Manage, this is my solution to a challenge from FrontendMentor. Created using HTML5 + Bootstrap.",
+    "description": "This is my solution to a challenge from Frontend Mentor, in which I had to recreate the landing page of 'Manage'. This challenge was useful to consolidate my knowledge of HTML and CSS layout.",
+    "pictures": ["/manage/manage-1.JPG", "/manage/manage-2.JPG"],
+    "placeholder": "/placeholder-4.png",
+    "liveViewLink": "https://lamaolo.github.io/manage-landingpage/",
+    "githubLink": "https://github.com/lamaolo/manage-landingpage",
+    "techStack": ["CSS", "HTML"]
+  },
+  {
+    "id": 7,
+    "name": "React Rock, Paper or Scissors",
+    "shortDescription": "Classic rock, paper or scissors minigame recreated in React with animations and a user-friendly UI, this is my solution to a challenge from FrontendMentor.",
+    "description": "This is my solution to a challenge from Frontend Mentor, in which I had to recreate the famous game 'rock, papers or scissors'. This challenge was useful to consolidate my knowledge of animations on CSS & component management on React.",
+    "pictures": [
+      "/paper-rock-scissors/paper-rock-scissors-1.JPG",
+      "/paper-rock-scissors/paper-rock-scissors-2.JPG"
+    ],
+    "placeholder": "/placeholder-3.png",
+    "liveViewLink": "https://react-rock-paper-scissors-lamaolo.vercel.app/",
+    "githubLink": "https://github.com/lamaolo/react-rock-paper-scissors",
+    "techStack": ["React", "CSS", "HTML"]
+  },
+  {
+    "id": 5,
+    "name": "Room landing page",
+    "shortDescription": "Landing page of Room, this is my solution to a challenge from FrontendMentor created using a sophisticated and responsive grid layout.",
+    "description": "This is my solution to a challenge from Frontend Mentor, in which I had to recreate the landing page of 'Room'. This particular challenge was extremly useful when I was learning about layouts and positioning in CSS.",
+    "pictures": ["/room/room-1.JPG", "/room/room-2.JPG"],
+    "placeholder": "/placeholder-2.png",
+    "liveViewLink": "https://lamaolo.github.io/room-landingpage/",
+    "githubLink": "https://github.com/lamaolo/room-landingpage",
+    "techStack": ["Vanilla JS", "SCSS", "HTML"]
+  },
+  {
+    "id": 9,
+    "name": "Easy bank landing page",
+    "shortDescription": "Landing page of Easy Bank. This is my solution to a challenge from FrontendMentor",
+    "description": "This is my solution to a challenge from Frontend Mentor, in which I had to recreate a whole landing page from an image. This was the first entire project that I built when I started to learn about CSS/HTML layout, responsive design & React.",
+    "pictures": ["/easy-bank/easybank-1.JPG", "/easy-bank/easybank-2.JPG"],
+    "placeholder": "/placeholder-1.png",
+    "liveViewLink": "https://easybank-landing-git-main-lamaolo.vercel.app/",
+    "githubLink": "https://github.com/lamaolo/easybank-landing",
+    "techStack": ["React", "CSS", "HTML"]
+  },
+  {
+    "id": 8,
+    "name": "IP tracker",
+    "shortDescription": "Application that tracks a given IP and show its geolocalization on the map, this is my solution to a challenge from FrontendMentor.",
+    "description": "This is my solution to a challenge from Frontend Mentor, in which I had to create an app that tracks a given IP address an shows it geolocalization on a map. This challenge was useful to learn how to use and implement external APIs",
+    "pictures": [
+      "/ip-tracker/ip-tracker-1.JPG",
+      "/ip-tracker/ip-tracker-2.JPG",
+      "/ip-tracker/ip-tracker-3.JPG"
+    ],
+    "placeholder": "/placeholder-4.png",
+    "liveViewLink": "https://ip-tracker.lamaolo.vercel.app/",
+    "githubLink": "https://github.com/lamaolo/ip-tracker",
+    "techStack": ["React", "CSS", "HTML"]
+  }
+]

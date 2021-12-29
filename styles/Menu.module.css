@@ -1,0 +1,224 @@
+.container {
+  position: fixed;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--color2); /* fallback for old browsers */
+  background: var(--gradient);
+  transition: all 0.15s ease-in-out;
+  z-index: 1000;
+}
+
+.opening {
+  animation: fadeIn 0.35s;
+  animation-iteration-count: 1;
+}
+
+.closing {
+  animation: fadeOut 0.35s linear;
+  animation-iteration-count: 1;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 25px 30px;
+  max-width: 1400px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content * {
+  filter: drop-shadow(0 0 7px rgba(0, 0, 0, 0.08));
+}
+
+.title {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 25px;
+  font-size: 40px;
+}
+
+.socialIcons a svg:hover {
+  transition: all 0.15s ease-in-out;
+  color: var(--color2) !important;
+}
+
+.navigation {
+  padding: 0;
+  list-style: none;
+}
+
+.navigation li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.navigation li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: var(--color1);
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.navigation li a {
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: text-decoration 0.15s ease-in-out;
+  font-size: 2.4rem;
+  color: white;
+  font-weight: 500;
+  text-decoration-color: transparent;
+}
+
+.navigation li a:hover {
+  text-decoration: underline;
+}
+
+.customize > p {
+  margin-top: 40px;
+}
+
+.customize {
+  display: flex;
+  flex-direction: column;
+}
+
+.customize > div {
+  display: flex;
+  gap: 20px;
+}
+
+.customize > div > button {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: 0px solid transparent;
+  transition: all 0.15s ease-in-out;
+}
+
+.customize > div > button.selected {
+  border: 2px solid white !important;
+  height: 70px;
+  width: 70px;
+}
+
+.customizeOne {
+  background: linear-gradient(to right, #6a82fb, #fc5c7d);
+}
+
+.customizeTwo {
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+}
+
+.customizeThree {
+  background: linear-gradient(to right, #c02425, #f0cb35);
+}
+
+.customizeFour {
+  background: linear-gradient(to right, #7f00ff, #e100ff);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .socialIcons {
+    justify-content: center;
+  }
+
+  .customize {
+    margin-top: 25px;
+    margin-bottom: 35px;
+  }
+
+  .navigation li {
+    justify-content: center;
+  }
+
+  .navigation li::before {
+    display: none;
+  }
+
+  .customize > div {
+    flex-wrap: wrap;
+  }
+
+  .customize > div > div {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .content {
+    margin-top: 40px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+
+  .customize > p {
+    margin-top: 0px;
+  }
+
+  .socialIcons {
+    font-size: 35px;
+  }
+
+  .customize > div > button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .customize > div > button.selected {
+    height: 50px;
+    width: 50px;
+  }
+
+  .navigation li a {
+    font-size: 2rem;
+    margin-bottom: 17px;
+  }
+}
