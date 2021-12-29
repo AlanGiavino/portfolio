@@ -1,13 +1,14 @@
-## Portafolio
-Mi portafolio personal, creado usando React, NextJS y vanilla CSS.
+## Portfolio 💼
+My personal portfolio, created using React, NextJS, and vanilla CSS.
 
-Para construir este proyecto usé:
-- SSG (static-site-generation) de rutas dinámicas.
+To build this project I used:
+
+- SSG (static-site-generation) of dynamic routes.
 - SSR (server-side-render)
-- Optimización de imagenes y placeholders de carga
-- Optimización de fuentes externas
+- Image optimization and loading placeholders
+- External source optimization
 - Responsive design
-- Accesibilidad web
+- Web accessibility
 - SEO
 
-https://portfolio-lamaolo.vercel.app/
+🌐 https://portfolio-alangiavino.vercel.app/
