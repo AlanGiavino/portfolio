@@ -27,12 +27,12 @@ export default async function handler(req, res) {
     const info = await transporter.sendMail({
       from: `Portafolio | ${name} <${email}>`,
       to: "alangiavino97@gmail.com",
-      subject: `PORTFOLIO: ${subject}`,
+      subject: `PORTAFOLIO: ${subject}`,
       text: `New message from: ${email} \nmessage`,
       html: `<div>New message from ${email} <br/> ${message}</div>`,
     });
 
-    return res.status(200).send("Mensaje enviado: ", info);
+    return res.status(200).send("Sucessfully ", info);
   } catch (error) {
     return res.status(500).send(error);
   }
