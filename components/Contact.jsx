@@ -29,7 +29,7 @@ const Contact = () => {
             >
               <RiLinkedinLine color="white" size={40} />
             </a>
-            <a href="alangiavino97@gmail.com" aria-label="Email">
+            <a href="mailto:alangiavino97@gmail.com" aria-label="Email">
               <AiOutlineMail color="white" size={40} />
             </a>
           </div>
