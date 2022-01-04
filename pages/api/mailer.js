@@ -9,12 +9,12 @@ export default async function handler(req, res) {
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-      user: EMAIL,
-      pass: PASSWORD,
+      user: "alangiavino97@gmail.com",
+      pass: "cbmaoeoacywkcqyi",
     },
     secure: true,
   });
-
+  
   if (!name || !subject || !email || !message) {
     return res
       .status(401)
@@ -26,7 +26,7 @@ export default async function handler(req, res) {
   try {
     const info = await transporter.sendMail({
       from: `Portafolio | ${name} <${email}>`,
-      to: "alangiavino97@gmail.com",
+      to: `alangiavino97@gmail.com`,
       subject: `PORTAFOLIO: ${subject}`,
       text: `New message from: ${email} \nmessage`,
       html: `<div>New message from ${email} <br/> ${message}</div>`,
