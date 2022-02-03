@@ -43,7 +43,7 @@ const Menu = ({ setIsMenuOpen, isMenuVisible }) => {
               >
                 <RiLinkedinLine color="white" />
               </a>
-              <a href="alangiavino97@gmail.com">
+              <a href="mailto:alangiavino97@gmail.com">
                 <AiOutlineMail color="white" />
               </a>
             </div>

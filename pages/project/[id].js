@@ -18,7 +18,7 @@ export default function Home({ project }) {
   return (
     <>
       <Head>
-        <title>{project.name || "Projects"} | Lucero Amaolo</title>
+        <title>{project.name || "Projects"} | Alan Giavino</title>
       </Head>
       <main className={styles.container}>
         <ProjectImage
