@@ -73,67 +73,30 @@
     "githubLink": "https://github.com/AlanGiavino/portfolio",
     "techStack": ["React", "NextJS", "CSS"]
   },
-
+  {
+  "id": 5,
+    "name": "Ecommerce",
+    "shortDescription": "Ecommerce page with different items for purchase.",
+    "description": "Ecommerce website using Mern Stack that is scalable and future proof. I have used React for frontend and Redux for state management, Node JS and Express for backend with MongoDB as database.",
+    "pictures": [
+      "/ecommerce/coming-soon.jpg"
+    ],
+    "placeholder": "/placeholder-2.png",
+    "liveViewLink": "",
+    "githubLink": "https://github.com/AlanGiavino/ecommerce",
+    "techStack": ["React", "NodeJS","Redux","HTML","Express","MongoDB", "CSS"]
+  },
   {
     "id": 6,
-    "name": "Manage landing page",
-    "shortDescription": "Landing page of Manage, this is my solution to a challenge from FrontendMentor. Created using HTML5 + Bootstrap.",
-    "description": "This is my solution to a challenge from Frontend Mentor, in which I had to recreate the landing page of 'Manage'. This challenge was useful to consolidate my knowledge of HTML and CSS layout.",
-    "pictures": ["/manage/manage-1.JPG", "/manage/manage-2.JPG"],
-    "placeholder": "/placeholder-4.png",
-    "liveViewLink": "https://lamaolo.github.io/manage-landingpage/",
-    "githubLink": "https://github.com/lamaolo/manage-landingpage",
-    "techStack": ["CSS", "HTML"]
-  },
-  {
-    "id": 7,
-    "name": "React Rock, Paper or Scissors",
-    "shortDescription": "Classic rock, paper or scissors minigame recreated in React with animations and a user-friendly UI, this is my solution to a challenge from FrontendMentor.",
-    "description": "This is my solution to a challenge from Frontend Mentor, in which I had to recreate the famous game 'rock, papers or scissors'. This challenge was useful to consolidate my knowledge of animations on CSS & component management on React.",
-    "pictures": [
-      "/paper-rock-scissors/paper-rock-scissors-1.JPG",
-      "/paper-rock-scissors/paper-rock-scissors-2.JPG"
-    ],
-    "placeholder": "/placeholder-3.png",
-    "liveViewLink": "https://react-rock-paper-scissors-lamaolo.vercel.app/",
-    "githubLink": "https://github.com/lamaolo/react-rock-paper-scissors",
-    "techStack": ["React", "CSS", "HTML"]
-  },
-  {
-    "id": 5,
-    "name": "Room landing page",
-    "shortDescription": "Landing page of Room, this is my solution to a challenge from FrontendMentor created using a sophisticated and responsive grid layout.",
-    "description": "This is my solution to a challenge from Frontend Mentor, in which I had to recreate the landing page of 'Room'. This particular challenge was extremly useful when I was learning about layouts and positioning in CSS.",
-    "pictures": ["/room/room-1.JPG", "/room/room-2.JPG"],
-    "placeholder": "/placeholder-2.png",
-    "liveViewLink": "https://lamaolo.github.io/room-landingpage/",
-    "githubLink": "https://github.com/lamaolo/room-landingpage",
-    "techStack": ["Vanilla JS", "SCSS", "HTML"]
-  },
-  {
-    "id": 9,
-    "name": "Easy bank landing page",
-    "shortDescription": "Landing page of Easy Bank. This is my solution to a challenge from FrontendMentor",
-    "description": "This is my solution to a challenge from Frontend Mentor, in which I had to recreate a whole landing page from an image. This was the first entire project that I built when I started to learn about CSS/HTML layout, responsive design & React.",
-    "pictures": ["/easy-bank/easybank-1.JPG", "/easy-bank/easybank-2.JPG"],
-    "placeholder": "/placeholder-1.png",
-    "liveViewLink": "https://easybank-landing-git-main-lamaolo.vercel.app/",
-    "githubLink": "https://github.com/lamaolo/easybank-landing",
-    "techStack": ["React", "CSS", "HTML"]
-  },
-  {
-    "id": 8,
-    "name": "IP tracker",
-    "shortDescription": "Application that tracks a given IP and show its geolocalization on the map, this is my solution to a challenge from FrontendMentor.",
-    "description": "This is my solution to a challenge from Frontend Mentor, in which I had to create an app that tracks a given IP address an shows it geolocalization on a map. This challenge was useful to learn how to use and implement external APIs",
-    "pictures": [
-      "/ip-tracker/ip-tracker-1.JPG",
-      "/ip-tracker/ip-tracker-2.JPG",
-      "/ip-tracker/ip-tracker-3.JPG"
-    ],
-    "placeholder": "/placeholder-4.png",
-    "liveViewLink": "https://ip-tracker.lamaolo.vercel.app/",
-    "githubLink": "https://github.com/lamaolo/ip-tracker",
-    "techStack": ["React", "CSS", "HTML"]
-  }
+      "name": "Netflix",
+      "shortDescription": "Netflix clone website.",
+      "description": "Mern Stack Netflix app clone. React, Node.js, MongoDB movie app. Full Stack Netflix application using JWT, React Hooks and Context API.",
+      "pictures": [
+        "/netflix/coming-soon.jpg"
+      ],
+      "placeholder": "/placeholder-2.png",
+      "liveViewLink": "",
+      "githubLink": "https://github.com/AlanGiavino/Netflix",
+      "techStack": ["React", "NodeJS","Redux","HTML","Express","MongoDB", "CSS"]
+    }
 ]

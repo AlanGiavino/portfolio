@@ -9,30 +9,30 @@ export default async function handler(req, res) {
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-      user: EMAIL,
-      pass: PASSWORD,
+      user: "alangiavino97@gmail.com",
+      pass: "cbmaoeoacywkcqyi",
     },
     secure: true,
   });
-
+  
   if (!name || !subject || !email || !message) {
     return res
       .status(401)
       .send(
-        "Los campos `name`, `subject`, `email` y `message` son obligatorios."
+        "The `name`,` subject`, `email` and` message` fields are required."
       );
   }
 
   try {
     const info = await transporter.sendMail({
       from: `Portafolio | ${name} <${email}>`,
-      to: "lamaolo.m@gmail.com",
+      to: `alangiavino97@gmail.com`,
       subject: `PORTAFOLIO: ${subject}`,
       text: `New message from: ${email} \nmessage`,
       html: `<div>New message from ${email} <br/> ${message}</div>`,
     });
 
-    return res.status(200).send("Mensaje enviado: ", info);
+    return res.status(200).send("Sucessfully ", info);
   } catch (error) {
     return res.status(500).send(error);
   }

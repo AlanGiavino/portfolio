@@ -24,7 +24,7 @@ class MyDocument extends Document {
           />
           <meta
             name="keywords"
-            content="Alan Giavino, lamaolo, github, frontend developer, designer"
+            content="Alan Giavino, github, frontend developer, designer"
           />
           <meta name="robots" content="index, follow" />
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -42,7 +42,7 @@ class MyDocument extends Document {
           <meta property="twitter:card" content="summary_large_image" />
           <meta
             property="twitter:url"
-            content="https://portfolio-lamaolo.vercel.app/"
+            content="https://portfolio-alangiavino.vercel.app/"
           />
           <meta property="twitter:title" content="Alan Giavino" />
           <meta
