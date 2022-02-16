@@ -9,8 +9,8 @@ export default async function handler(req, res) {
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-      user: "alangiavino97@gmail.com",
-      pass: "cbmaoeoacywkcqyi",
+      user: EMAIL,
+      pass: PASSWORD
     },
     secure: true,
   });
