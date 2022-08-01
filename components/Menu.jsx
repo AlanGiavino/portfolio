@@ -88,6 +88,9 @@ const Menu = ({ setIsMenuOpen, isMenuVisible }) => {
               <Link href="/#home">Home</Link>
             </li>
             <li>
+              <Link href="/#about">About</Link>
+            </li>
+            <li>
               <Link href="/#my-projects">My projects</Link>
             </li>
             <li>

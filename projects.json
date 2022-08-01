@@ -71,7 +71,7 @@
     "placeholder": "/placeholder-2.png",
     "liveViewLink": "https://portfolio-alangiavino.vercel.app/",
     "githubLink": "https://github.com/AlanGiavino/portfolio",
-    "techStack": ["React", "NextJS", "CSS"]
+    "techStack": ["React", "NextJS", "CSS", "HTML"]
   },
   {
   "id": 5,
@@ -83,20 +83,23 @@
     ],
     "placeholder": "/placeholder-2.png",
     "liveViewLink": "",
-    "githubLink": "https://github.com/AlanGiavino/ecommerce",
+    "githubLink": "https://github.com/AlanGiavino/Ecommerce-React",
     "techStack": ["React", "NodeJS","Redux","HTML","Express","MongoDB", "CSS"]
   },
   {
     "id": 6,
       "name": "Netflix",
       "shortDescription": "Netflix clone website.",
-      "description": "Mern Stack Netflix app clone. React, Node.js, MongoDB movie app. Full Stack Netflix application using JWT, React Hooks and Context API.",
+      "description": "Mern Stack Netflix app clone. React, Node.js, MongoDB movie app. Full Stack Netflix application using TMDb API, React Hooks and Firebase.",
       "pictures": [
-        "/netflix/coming-soon.jpg"
+        "/netflix/netflix-3.png",
+        "/netflix/netflix-1.png",
+        "/netflix/netflix-2.png",
+        "/netflix/netflix-4.png"
       ],
       "placeholder": "/placeholder-2.png",
-      "liveViewLink": "",
+      "liveViewLink": "https://netflix-clone-alangiavino.vercel.app/",
       "githubLink": "https://github.com/AlanGiavino/Netflix",
-      "techStack": ["React", "NodeJS","Redux","HTML","Express","MongoDB", "CSS"]
+      "techStack": ["React", "NodeJS","Redux","HTML","Express","MongoDB", "Styled components", "Firebase"]
     }
 ]

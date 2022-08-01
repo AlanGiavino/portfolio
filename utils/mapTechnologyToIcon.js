@@ -10,6 +10,7 @@ import {
   SiJavascript,
   SiHtml5,
   SiRedux,
+  SiFirebase,
 } from "react-icons/si";
 
 export const mapTechnologyToIcon = (technology) => {
@@ -18,8 +19,6 @@ export const mapTechnologyToIcon = (technology) => {
       return <SiMongodb size={20} />;
     case "css":
       return <SiCss3 size={20} />;
-    case "express":
-      return <SiNodeDotJs size={20} />;
     case "nodejs":
       return <SiNodeDotJs size={20} />;
     case "react":
@@ -38,6 +37,8 @@ export const mapTechnologyToIcon = (technology) => {
       return <SiSass size={20} />;
     case "redux":
       return <SiRedux size={20} />;
+      case "firebase":
+      return <SiFirebase size={20} />;
     default:
       return "";
   }
