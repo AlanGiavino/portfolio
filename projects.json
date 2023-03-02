@@ -79,11 +79,11 @@
     "shortDescription": "Ecommerce page with different items for purchase.",
     "description": "Ecommerce website using Next.js, Sanity.io and Stripe",
     "pictures": [
-      "/ecommerce/ecommerce-1.png",
-      "/ecommerce/ecommerce-2.png",
-      "/ecommerce/ecommerce-3.png",
-      "/ecommerce/ecommerce-4.png",
-      "/ecommerce/ecommerce-5.png"
+      "/ecommerce_next.js/ecommerce-1.png",
+      "/ecommerce_next.js/ecommerce-2.png",
+      "/ecommerce_next.js/ecommerce-3.png",
+      "/ecommerce_next.js/ecommerce-4.png",
+      "/ecommerce_next.js/ecommerce-5.png"
     ],
     "placeholder": "/placeholder-2.png",
     "liveViewLink": "https://boat-ecommerce-nextjs.vercel.app/",
